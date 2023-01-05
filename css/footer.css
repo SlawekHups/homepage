@@ -1,0 +1,19 @@
+.footer {
+    padding: 20px;
+    margin: auto;
+}
+
+.footer__title {
+    color: hsl(24, 94%, 25%);
+    text-align: center;
+}
+
+.footer__list {
+    padding: 5px 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #191411;
+    font-size: 20px;
+}

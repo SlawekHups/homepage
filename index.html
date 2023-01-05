@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozonowannie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <h1 class="header">Profesjonalne Ozonowanie</h1>
+        <nav class="navigation">
+            <a class="navigation__link" href="#home">Home</a> |
+            <a class="navigation__link" href="#gabinety">Gabinety</a> |
+            <a class="navigation__link" href="#mieszkania">Mieszkania</a> |
+            <a class="navigation__link" href="#kontakt">Kontakt</a>
+        </nav>
+        <main>
+            <header class="section">
+                <h2 class="section__header">Ozonowanie pomieszczeń</h2>
+                <img class="section__image js-photoSlide" src="../"
+                    alt="Pokoje hotelowe, czyste i przyjemne ">
+
+                <button class="section__button js-buttonPhotoRemove">
+                    <span class="js-buttonChange">Ukryj</span> zdjęcie
+                </button>
+            </header>
+            <section id="gabinety" class="section">
+                <h2 class="section__header">Gabinet odnowy i salon SPA</h2>
+                <p class="section__content">Jeśli jesteś <strong>właścicielem</strong> SPA, gabinet u odnowy
+                    biologicznej,
+                    <b>salonu</b> kosmetycznego czy fryzjerskiego i chcesz skutecznie zneutralizować
+                    nieprzyjemne
+                    zapachy,<br> <em>zastosuj ozonowanie</em> w swoim lokalu.
+                </p>
+                <p class="section__content"> Zastosowanie <i>ozonu</i> w gabinetach lekarskich, stomatologicznych, czy
+                    weterynaryjnych zredukuje
+                    ryzyko infekcj i zakażeń oraz przede wszystkim zapewni świeży<br> zapach i sterylność
+                    w danym
+                    pomieszczeniu.
+                </p>
+                <img class="section__card" src="https://hups.pl/img/spa-kompozycja.jpg"
+                    alt="Kompozycja sapa, świeca, ręcznik">
+            </section>
+            <section id="mieszkania" class="section">
+                <h3 class="section__header">Mieszkania i domy jednorodzinne</h3>
+                <p class="section__content">Ozonowanie mieszkań i domów jednorodzinnych to usługa skierowana przede
+                    wszystkim do
+                    osób, <span class="section__element">które cenią w swoim otoczeniu czystość</span>,
+                    sterylność oraz
+                    świeży
+                    zapach.
+                </p>
+                <img class="section__card" src="https://hups.pl/img/mieszkanie.jpg"
+                    alt="Czyste mieszkanie dla wszystkich">
+            </section>
+            <section class="section">
+                <h2 class="section__header">Cennik</h2>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Cennik usługi ozonowania</caption>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="col">Usługa</th>
+                            <th class="table__cell table__header" scope="col">Czas pracy</th>
+                            <th class="table__cell table__header" scope="col">Kwota (brutto)</th>
+                            <th class="table__cell table__header" scope="col">m2</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Mieszkania</th>
+                            <td class="table__cell">1 h</td>
+                            <td class="table__cell">140 zł</td>
+                            <td class="table__cell">do 50 m2</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Mieszkanie</th>
+                            <td class="table__cell">1 h</td>
+                            <td class="table__cell">160 zł</td>
+                            <td class="table__cell">od 50 do 70 m2</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Mieszkania</th>
+                            <td class="table__cell">1 h</td>
+                            <td class="table__cell">200 zł</td>
+                            <td class="table__cell">od 70 do 200 m2</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Samochody osobowe</th>
+                            <td class="table__cell">40 min</td>
+                            <td class="table__cell" colspan="2">50 zł</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Autokary</th>
+                            <td class="table__cell">40 min</td>
+                            <td class="table__cell" colspan="2">100 zł</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="section__button js-sechangeBackgroundButton">Zmien kolor
+                    <span class="js-colorDark">na ciemny</span>
+                </button>
+            </section>
+        </main>
+        <footer class="footer" id="kontakt">
+            <h2 class="footer__title">Kontakt</h2>
+            <ul class="footer__list">
+                <li><a class="footer__link" href="mailto:biuro@hups.pl">Zawsze możesz napisać E-mail</a></li>
+                <li><a class="footer__link" href="tel:+48600900600">Telefon w razie awarii</a></li>
+                <li><a class="footer__link" href="https://github.com/" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
