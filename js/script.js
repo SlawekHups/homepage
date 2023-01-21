@@ -7,7 +7,7 @@
           colorDark.innerText = body.classList.contains("body--dark") ? "na jasny" : "na ciemny";
      };
 
-     const onPhotoClic = () => {
+     const onPhotoClick = () => {
           const buttonChange = document.querySelector(".js-buttonChange");
           const photoSlide = document.querySelector(".js-photoSlide");
 
@@ -20,7 +20,7 @@
           const buttonPhotoRemove = document.querySelector(".js-buttonPhotoRemove");
 
           sechangeBackgroundButton.addEventListener("click", toogleBackground);
-          buttonPhotoRemove.addEventListener("click", onPhotoClic);
+          buttonPhotoRemove.addEventListener("click", onPhotoClick);
      };
 
      init();
